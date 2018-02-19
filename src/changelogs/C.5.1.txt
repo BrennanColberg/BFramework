@@ -1,0 +1,8 @@
++ Poly calculations: contains, intersects, encapsulates
++ Vector restrictMagnitude()
++ argument events 1,2,3
+
+- Poly.centered()
+
+* MovingEntity no longer abstract
+* Event.execute now abstract

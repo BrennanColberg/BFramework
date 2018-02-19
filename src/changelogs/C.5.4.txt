@@ -1,0 +1,16 @@
++ Rect adjustments, normalizations in Renderer
++ adjustRaw, normalizeRaw suite in Renderer
++ fillRaw, outlineRaw in Renderer
++ Input clearing on every state switch
++ mouse inputs
++ MouseTrigger
++ InputState.CLICKED
++ catch for EmptyStateException in ControlInput
++ restriction on alpha range in BColor.alpha
++ State.contains
++ BColor.average
+
+* Overhauled adjustments in Renderer
+* FIXED ControlInput not applying to all states
+* Default background color lightGray not white
+* Readded C.5.0 fix for initiation skip (never got inherited from that edition)

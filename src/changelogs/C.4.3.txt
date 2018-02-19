@@ -1,0 +1,1 @@
++ easy starting option ... 'new State' as well as 'Control.run(new State)'

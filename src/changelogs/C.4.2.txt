@@ -1,0 +1,18 @@
++ Line class
++ InputTemplate class
+
+- Settings class [blank placeholder]
+- Menu classes
+- CameraListener dependency on Camera input for initialization
+- Entity.vector_size
+
+* Rect intersection calculation optimized
+* Vector operation names made sensible
+* ControlListener updated to use InputTemplate
+* CameraListener updated to use InputTemplate
+* Renderer uses only two commands (outline/draw) for all Renderables
+* Poly inheritance and rendering system
+* syntax to underscore from camel-back
+* more intuitive variable names
+* more user friendly method names
+* Entity.rect_bounds() now abstract

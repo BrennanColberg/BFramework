@@ -1,0 +1,8 @@
++ Added many different events, now with conditions
++ Added enum InputState for Input things
++ constructor Vector(Point)
++ Renderer method normalize(Vector)
+
+- Removed entire Listener system
+
+* Changed Input.add system

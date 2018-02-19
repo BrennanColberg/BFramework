@@ -1,0 +1,17 @@
++ 'images' package option
++ Resources class for managing sounds and images
++ Image class [not to be confused with java.awt.Image]
++ BColor.all(##) creates color with all values ##
++ added direct call in State for object(i) [from objects().get(i)]
++ added static reference to pressed list - easy key conditions
++ heading and speed getters/setters for MovingEntity
++ Vector methods rotateNew, angleNew
+
+* 'Sound' incorporated into 'Resource'
+* moved BColor, Rect, Poly, and Line classes from com.bframework.c.math to com.bframework.c.graphics
+* Entity.rectBounds() no longer abstract, returns null
+* Entity.polyBounds() returns null
+* CameraInput's 'speed()' actually affects speed now; before it was hardcoded and ignored that variable
+* Rendering and ticking in state go new -> old not old -> new ... older render on top
+	* blanket empty catches for NullPointerException and ClassCastException, IndexOutOfBoundsException ... such errors within tick() or render() methods will not show
+		-> this is because of DeathAnimation in BGame TSA.0.0 removing or setting objects to null in the middle of the tick/render cycle

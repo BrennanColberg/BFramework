@@ -1,0 +1,10 @@
++ BColor.shade
++ Sprite (from game)
++ SpriteIO
++ BColor value functions
++ SpriteIO.keys
+
+* Control.run loads sprites
+* Resources.init renamed to Resources.load
+* Resources.load called at beginning of Control.run
+* State.DEFAULT_RESETTING now true; before, no point in difference between init and focus

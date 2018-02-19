@@ -1,0 +1,9 @@
++ CameraInput modular controls
++ boolean Input.pressed(Integer)
++ Renderer.write
++ Renderer.normalize for poly, rect
++ Camera.magnificationTarget
++ Renderer.writeRaw
+
+* CameraInput using arrow keys
+* Vector.randomWithin now working

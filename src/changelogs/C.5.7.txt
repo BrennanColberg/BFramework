@@ -1,0 +1,14 @@
++ Entity methods intersects(Entity), encapuslates(Entity)
++ Natural catch within State.remove
+
+// TODO settings API
+// TODO image rendering
+// TODO text rendering
+// TODO modular collision results
+// TODO joystick input
+// TODO tiered image and sound storage
+// TODO default camera position
+// TODO full modular input with static references
+// TODO fix sloppy blanket exception catches in C.5.0 (tick, render of State)
+// TODO add width, height, size etc directly to Display
+// TODO keytrigger multiple triggers
